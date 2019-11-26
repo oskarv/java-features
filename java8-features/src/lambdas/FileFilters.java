@@ -7,7 +7,7 @@ import java.util.Arrays;
 /**
  *   author: oskarv
  */
-public class LambdaExamples {
+public class FileFilters {
 
     static class OldSchoolFileFilter implements FileFilter {
         @Override

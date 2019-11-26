@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75d03f38-d950-4bba-a9e3-6756df2d307e" name="Default Changelist" comment="" />
+    <list default="true" id="75d03f38-d950-4bba-a9e3-6756df2d307e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lambdas/Comparators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java8-features.iws" beforeDir="false" afterPath="$PROJECT_DIR$/java8-features.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambdas/LambdaExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambdas/FileFilters.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +39,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="LambdaExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambdas.LambdaExamples" />
+  <component name="RunManager" selected="Application.FileFilters">
+    <configuration name="Comparators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdas.Comparators" />
+      <module name="java8-features" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileFilters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdas.FileFilters" />
       <module name="java8-features" />
       <extension name="coverage">
         <pattern>
@@ -51,7 +68,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LambdaExamples" />
+        <item itemvalue="Application.FileFilters" />
+        <item itemvalue="Application.Comparators" />
       </list>
     </recent_temporary>
   </component>
