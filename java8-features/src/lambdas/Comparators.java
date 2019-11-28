@@ -1,7 +1,6 @@
 package lambdas;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -35,7 +34,7 @@ public class Comparators {
 
         // lambda way, better ( more readable ) way of using anonymous classes
         listOfStrings = Arrays.asList("**", "****", "*", "***");
-        Comparator<String> lambaComparator = (String s1, String s2) -> Integer.compare(s1.length(), s2.length());
+        Comparator<String> lambaComparator = (s1, s2) -> Integer.compare(s1.length(), s2.length());
         listOfStrings.sort(lambaComparator);
         System.out.println(listOfStrings);
     }
