@@ -37,6 +37,7 @@ public class CollectionsExamples {
 
         Map<Integer, List<Person>> peopleMap = people.stream().collect(Collectors.groupingBy(Person::getAge));
         Predicate<Map.Entry<Integer, List<Person>>> entryPredicate = entry -> entry.getKey() == 24;
-        peopleMap.entrySet().stream().filter(entryPredicate).forEach(System.out::println);
+        Consumer<Map.Entry<Integer, List<Person>>> entryPrintConsumer = System.out::println;
+        peopleMap.entrySet().stream().filter(entryPredicate).forEach(entryPrintConsumer);
     }
 }
