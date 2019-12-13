@@ -16,10 +16,6 @@ public class CollectionsExamples {
         Person oskarelo = new Person("Oskarelo", 24);
 
         List<Person> people = Arrays.asList(oskar, oskarelo);
-        System.out.println(people);
-
-        System.out.println("*******************************************************");
-
         Iterator<Person> personIterator = people.iterator();
         while (personIterator.hasNext()) {
             System.out.println(personIterator.next());
