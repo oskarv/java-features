@@ -23,7 +23,7 @@ public class Wildcards {
 
     private static void printAll(List<? extends Person> listToPrint) {
         System.out.println("0-----------------------------------------------------------0");
-        Consumer<Person> printConsumer = System.out::println;;
+        Consumer<Person> printConsumer = System.out::println;
         listToPrint.forEach(printConsumer);
         System.out.println("0-----------------------------------------------------------0");
     }
