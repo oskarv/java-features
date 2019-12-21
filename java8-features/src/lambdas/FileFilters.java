@@ -34,7 +34,7 @@ public class FileFilters {
         System.out.println(Arrays.toString(files));
 
         // lambda way, better ( more readable ) way of using anonymous classes
-        FileFilter lambdaFileFilter = (File pathname) -> pathname.getName().endsWith(".js");
+        FileFilter lambdaFileFilter = pathname -> pathname.getName().endsWith(".js");
         files = directory.listFiles(lambdaFileFilter);
         System.out.println(Arrays.toString(files));
     }
